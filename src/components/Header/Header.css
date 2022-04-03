@@ -1,0 +1,12 @@
+.header-nav a{
+    margin-right: 10px;
+    color: #556B2F;
+    font-size: large;
+}
+.header-nav a:hover{
+    color: orange;
+}
+.header-nav{
+    background-color: #F0F8FF;
+    padding: 20px;
+}

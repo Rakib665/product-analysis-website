@@ -1,0 +1,19 @@
+.home-image{
+    height: 300px;
+    width: 800px;
+}
+.home-container{
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.home-text{
+    margin-top: 80px;
+    justify-content: start;
+}
+.home-text h2{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: start;
+}
