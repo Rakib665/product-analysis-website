@@ -7,6 +7,12 @@ const Reviews = () => {
     return (
         <div>
           <h2>All Reviews: {reviews.length}</h2>
+          {
+            reviews.map(review => <Review
+            key= {review.id}
+            review ={review}
+            ></Review>)
+          }
         </div>
     );
 };

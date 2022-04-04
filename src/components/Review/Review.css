@@ -1,4 +1,19 @@
 .review-list{
-    border-bottom: 2px solid skyblue;
+    border: 2px solid #dccdcddd;
+    margin: 8px;
+    border-radius: 15px;
+    display: flex;
+    width: 600px;
     
+    
+}
+.review-list img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.reviewer-details{
+    align-items: center;
 }

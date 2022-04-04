@@ -23,7 +23,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="reviews-items">
-            
+                <div>
+                    <h3 className='text-4xl font-semibold text-slate-600  underline'>Customer Review(3)</h3>
+                </div>
+                <div className="reviews flex w-full">
                 {
                     
                     reviews.slice(0,3).map(review => <Review
@@ -32,8 +35,12 @@ const Home = () => {
                     ></Review>)
                 }
                
+                </div>
+               
             </div>
-            <Link className='p-3 bg-yellow-600	' to='/reviews'>See All Reviews</Link>
+            <div className='see-all-review'>
+            <Link className=' p-3 bg-yellow-600	' to='/reviews'>See All Reviews</Link>
+            </div>
         </div>
     );
 };
