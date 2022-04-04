@@ -1,19 +1,30 @@
-.home-image{
-    height: 300px;
-    width: 800px;
-}
+
 .home-container{
-margin: 10px;
 display: flex;
-flex-direction: row;
 justify-content: space-between;
+margin: 20px;
+
 }
-.home-text{
-    margin-top: 80px;
-    justify-content: start;
+ .home-moto-text{
+   
+    margin-top: 100px;
+
 }
-.home-text h2{
-    font-size: 30px;
+.home-moto-text h2{
+    font-size: 60px;
     font-weight: bold;
-    justify-content: start;
+     line-height: 100%; 
 }
+.home-moto-details p{
+   font-size: 25px;
+   margin-top: 10px;
+} 
+
+.home-image img{
+    height: 650px;
+    width: 1020px;
+
+}
+/* .reviews-items{
+   
+} */
