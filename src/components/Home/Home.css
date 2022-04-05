@@ -5,6 +5,12 @@ justify-content: space-between;
 margin: 20px;
 
 }
+@media screen and (max-width: 600px) {
+    .home-container{
+        display: block;
+    }
+    
+}
  .home-moto-text{
    
     margin-top: 100px;
@@ -30,4 +36,9 @@ margin: 20px;
 } */
 .see-all-review{
 margin: 15px;
+}
+@media screen and (max-width: 600px) {
+    .reviews{
+        display: block;
+    }
 }

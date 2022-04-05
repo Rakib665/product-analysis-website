@@ -1,7 +1,9 @@
 .header-nav a{
-    margin-right: 10px;
+    margin-right: 50px;
     color: #556B2F;
     font-size: large;
+    font: bold;
+    font-size: 20px;
 }
 .header-nav a:hover{
     color: orange;

@@ -1,9 +1,12 @@
 .review-list{
     border: 2px solid #dccdcddd;
-    margin: 8px;
     border-radius: 15px;
     display: flex;
     width: 600px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    
     
     
 }

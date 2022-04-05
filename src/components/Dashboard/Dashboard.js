@@ -41,7 +41,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='grid m-10'>
+        <div className='charts m-10'>
             <div className='line-chart'>
                 <h2 className='text-3xl font-serif text-blue-500 underline'>Line-Chart</h2>
                 <LineChart height={470} width={600} data={data}>
