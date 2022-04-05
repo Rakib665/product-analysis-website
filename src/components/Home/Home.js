@@ -11,11 +11,11 @@ const Home = () => {
             <div className='home-container '>
                 <div className="home-text">
                     <div className="home-moto-text">
-                        <h2 className='text-rose-600	'>Your next Bike</h2>
-                        <h2>Your best Bike</h2>
+                        <h2 className='text-rose-600	'>Buy & enjoy</h2>
+                        <h2 className='text-gray-800'>Your best Bike</h2>
                     </div>
                     <div className="home-moto-details">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi commodi unde nesciunt harum necessitatibus molestiae. Error exercitationem est similique eaque blanditiis dignissimos non. Earum aspernatur maiores ipsum. Numquam aspernatur sint illum, odio explicabo iure dolore atque totam tenetur quo tempora.</p>
+                        <p className='font-serif'>Motozone is the leading brand in trials for apparel, parts and accessories. We are passionate about trials and our focus on all things trials is a clear choice we made on day one of the creation of the brand. We have and always will stay true to that vision.</p>
                     </div>
                 </div>
                 <div className="home-image">
